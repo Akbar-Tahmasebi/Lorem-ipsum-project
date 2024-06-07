@@ -1,0 +1,103 @@
+@import "reset.css";
+@font-face {
+    font-family: IRANSans;
+    src: url('../font/IRANSansWe.eot');
+    src: url('../font/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+         url('../font/IRANSansWeb.woff2') format('woff2'),
+         url('../font/IRANSansWeb.woff') format('woff'),
+         url('../font/IRANSansWeb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+body {
+    font-family: IRANSans;
+    background-color: blue;
+    direction: rtl;
+}
+
+
+button, textarea {
+  font-family: IRANSans;
+}
+
+#continer {
+  background-color: #f6f6f6;
+  width: 350PX;
+  margin: 50PX auto;
+  border-radius: 10PX;
+  text-align: center;
+}
+
+#text-title {
+  padding: 10px 0;
+  font-size: 22px;
+  border-bottom: 2px dashed #cfcfcf;
+  font-weight: bold;
+  color: black;
+}
+
+#text-area {
+  width: 330px;
+  height: 220px;
+  resize: none;
+  background-color: #f6f6f6;
+  padding: 5px 10px;
+  border: 2px solid #cfcfcf;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+  color: black;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
+
+#text-area:focus {
+  outline: none;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.btn {
+  width: 106px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  font-size: 13px;
+  color: #f6f6f6;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-blue {
+  background-color: blue;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-blue:hover {
+  background-color: blue;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.btn-red {
+  background-color: red;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-red:hover {
+  background-color: red;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.btn-green {
+  background-color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-green:hover {
+  background-color: green;
+  opacity: 0.75;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.35);
+}
